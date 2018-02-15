@@ -1,0 +1,150 @@
+.btn-color{
+	color: #fdfdfd !important;
+    background-color: #a97979 !important;
+    border-color: #a97979 !important;
+}
+.center-text {
+	position: absolute;
+    top: 100px;
+}
+.top-div{
+	line-height: 25px;
+}
+.top-div div:hover {
+	background-color: #a97979;
+}
+
+.navbar{
+  position:fixed;
+  width:100%;
+  background-color:transparent;
+  z-index:10;
+  border-radius:0;
+  border-color:transparent;
+}
+.navbar-default .navbar-nav > li > a{
+  color:#000;
+  
+}
+.navbar-nav li a {
+	color: #fff;
+}
+
+.slider {
+	opacity:0.9;
+	background-color: Black;
+	/*z-index:10;*/
+}
+.slider img{
+    /*Z-index: 5;*/
+}
+.hrStyle {
+    border-top: 4px solid;
+    width: 50%;
+}
+.websiteIcon {
+  position: absolute;
+  top: 7px;
+  left: 240px;
+}
+
+.bgGrid {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f0b7a1+0,221c1a+0,4f1d00+32,bf6e4e+90 */
+background: rgb(240,183,161); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(240,183,161,1) 0%, rgba(34,28,26,1) 0%, rgba(79,29,0,1) 32%, rgba(191,110,78,1) 90%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(240,183,161,1) 0%,rgba(34,28,26,1) 0%,rgba(79,29,0,1) 32%,rgba(191,110,78,1) 90%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(240,183,161,1) 0%,rgba(34,28,26,1) 0%,rgba(79,29,0,1) 32%,rgba(191,110,78,1) 90%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e',GradientType=1 ); /* IE6-9 */
+}
+
+.six-img-div {
+    background-color: #F9F9F9;
+    padding-top: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-bottom: 10px;
+    line-height: 0px;
+    text-align: left;
+    padding-left: 17px;
+    font-family: serif;
+}
+.six-img-div h1{
+    color: #a07979;
+}
+.six-img-div p{
+  font-size: 12px;
+  color: #b1a8a8;
+}
+.six-img-div a{
+  color: #a96767;
+    font-size: 13px;
+}
+
+.focus:focus {
+      background-color: #a97979;
+    color: #fff;
+    border: 0px;
+}
+.focus {
+      background-color: #fff;
+    outline: 0px !important;
+    border: 1px solid #d6cfcf;
+}
+ul {
+    list-style-image: url('img/icon1.png');
+    list-style-type:square;
+    list-style-position:outside;
+}
+ul li{
+  margin: 5px;
+}
+.five-img-div{
+    position: inherit;
+    top: 10px;
+    left: 20px;
+}
+.five-div h1{
+  text-align: center;
+  color: #fff;
+}
+.five-div p{
+  text-align: center;
+  color: #fff;
+      font-size: 10px;
+}
+.five-div hr{
+    width: 35%;
+}
+
+.date-month {
+    background-color: #000000b3;
+    color: #fff;
+    margin-bottom: 0px;
+    border-radius: 0px 0px 4px 4px;
+        font-size: 10px;
+    padding: 3px 0px 3px 0px;
+        font-family: monospace;
+}
+.date-day {
+    background-color: #00000070;
+    color: #fff;
+    margin-bottom: 0px;
+    border-radius: 4px 4px 0px 0px;
+}
+.date-div{
+    width: 41px;
+        position: absolute;
+    top: 15px;
+    left: 32px;
+}
+.div-image {
+    background-image: url("./img/img4.jpg");
+}
+.footer-recent-post {
+      color: #969191;
+    line-height: 20px;
+    font-size: 12px;
+}
+.hr-border {
+    margin: 10px 0px 10px 0px;
+}

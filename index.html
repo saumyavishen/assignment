@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="JS/jquery-3.3.1.min.js"></script>
+  <script src="JS/script.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="container-fluid" style="width: 60%;margin-top:5px;">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar" style="color:black"></span>
+        <span class="icon-bar" style="color:black"></span>
+        <span class="icon-bar" style="color:black"></span>                        
+        <span class="icon-bar" style="color:black"></span>
+      </button>
+      <a class="navbar-brand" href="#" style="color:#fff">
+        <img src="./img/website_icon.png" width="50px" class="websiteIcon" />
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About1</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in" style="font-size: 20px;"></span></a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-search" style="font-size: 20px;"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron" style="padding:0px">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" style="height: 603px;">
+
+    <div class="item active slider" style="height: -webkit-fill-available;">
+        <img src="img/slider1.jpeg" width='100%' style="opacity: 0.5;" alt="Los Angeles">
+        <div class="absolute-div">
+            <div class="carousel-caption center-text">
+                <h3>Unique and modern design</h3>
+                <h2>Portfolio PSD TEMPLATE</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                 <button type="button" class="btn btn-default btn-color">Get started</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="item slider" style="height: -webkit-fill-available;">
+        <img src="img/slider2.jpeg" width='100%' style="opacity: 0.5;" alt="Los Angeles">
+        <div class="absolute-div">
+            <div class="carousel-caption center-text">
+                <h3>Unique and modern design</h3>
+                <h2>Portfolio PSD TEMPLATE</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                 <button type="button" class="btn btn-default btn-color">Get started</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="item slider" style="height: -webkit-fill-available;">
+        <img src="img/slider3.jpeg" width='100%' style="opacity: 0.5;" alt="Los Angeles">
+        <div class="absolute-div">
+            <div class="carousel-caption center-text">
+                <h3>Unique and modern design</h3>
+                <h2>Portfolio PSD TEMPLATE</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                 <button type="button" class="btn btn-default btn-color">Get started</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="item slider" style="height: -webkit-fill-available;">
+        <img src="img/slider4.jpeg" width='100%' style="opacity: 0.5;" alt="Los Angeles">
+        <div class="absolute-div">
+<div class="carousel-caption center-text">
+                <h3>Unique and modern design</h3>
+                <h2>Portfolio PSD TEMPLATE</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                <button type="button" class="btn btn-default btn-color">Get started</button>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+  
+<div class="container-fluid bg-3 text-center">
+  <div class="row" style="margin-bottom: 50px;margin-top: 20px;">
+    <div>
+      <div class="col-sm-2 top-div" style="margin-left: 17%;">
+        <span class="glyphicon glyphicon-pencil" style="font-size: 25px;margin: 10px;"></span>
+        <h4 style="font-weight: 600;font-family: sans-serif;">Web & App Design</h4>
+        <p style="font-size: 12px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
+        <hr class="hrStyle" />
+      </div>
+      <div class="col-sm-2 top-div">
+        <span class="glyphicon glyphicon-tasks" style="font-size: 25px;margin: 10px;"></span>
+        <h4 style="font-weight: 600;font-family: sans-serif;">Development</h4>
+        <p style="font-size: 12px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
+        <hr class="hrStyle" />
+      </div>
+      <div class="col-sm-2 top-div">
+        <span class="glyphicon glyphicon-wrench" style="font-size: 25px;margin: 10px;"></span>
+        <h4 style="font-weight: 600;font-family: sans-serif;">Customization</h4>
+        <p style="font-size: 12px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
+        <hr class="hrStyle" />
+      </div>
+      <div class="col-sm-2 top-div">
+        <span class="glyphicon glyphicon-briefcase" style="font-size: 25px;margin: 10px;"></span>
+        <h4 style="font-weight: 600;font-family: sans-serif;">Marketing</h4>
+        <p style="font-size: 12px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
+        <hr class="hrStyle" />
+      </div>
+    </div>
+  </div>
+</div><br>
+
+<div style="padding: 0px 20% 3% 20%;">
+  <h3 style="text-align: center;">Waxom is Realization of your Ideas.</h3>
+  <p style="text-align: center;"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+</div>
+
+<div class="container-fluid bg-3 text-center">    
+  <img src="img/Assignment1.jpg" width="65%" />
+</div>
+
+<div class="container-fluid bg-3 text-center bgGrid">    
+  <div class="row" style="margin: 30px 14% 33px 16%;">
+    <div class="col-sm-9" style="text-align: left;">
+      <span style="font-size: 30px;color: #fff;"><span style="color:#e4a8a8;">Waxom</span> Multipurpose WordPress Theme</span><br/>
+      <span style="color: #fff;">Don't Forget to Rate the Template.Thanks so much!</span>
+    </div>
+    <div class="col-sm-3" style="margin-top: 13px;"> 
+      <button type="button" class="btn btn-default btn-color">PURCHASE NOW</button>
+    </div>
+  </div>
+</div><br>
+
+<!-- 6 divs -->
+
+<div class="container-fluid bg-3 text-center">    
+  <div class="row" style="margin: 20px 25% 36px 25%;">
+    <h2 style="color: #4c4b4b;margin-bottom: 20px;">Our Latest Projects.</h2>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+  </div>
+  <div>
+    <div class="btn-toolbar" style="margin-left: 33%;margin-bottom: 25px;" role="toolbar" aria-label="Toolbar with button groups">
+  
+    <button type="button" class="btn btn-secondary focus" active>All</button>
+    <button type="button" class="btn btn-secondary focus">Web Design</button>
+    <button type="button" class="btn btn-secondary focus">Mobile App</button>
+    <button type="button" class="btn btn-secondary focus">Illustration</button>
+    <button type="button" class="btn btn-secondary focus">Photography</button>
+
+  </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-3 sixImg" style="margin-left: 14%;">
+      <img src="./img/img1.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <div class="six-img-div">
+        <h4>Claritas Etiam Processus</h4>
+        <p>Photography Nature</p>
+      </div>
+    </div>
+    <div class="col-sm-3 sixImg" > 
+      <img src="./img/img2.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <div class="six-img-div">
+        <h4>Quam Nutamus Farum</h4>
+        <p>Graphic Design,Mock up</p>
+      </div>
+    </div>
+    <div class="col-sm-3 sixImg"> 
+      <img src="./img/img3.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <div class="six-img-div">
+        <h4>Usus Legentis Videntur</h4>
+        <p>Photography, Holiday</p>
+      </div>
+    </div>
+  </div>
+  <div class="row" style="margin-top: 30px;">
+    <div class="col-sm-3 sixImg" style="margin-left: 14%;">
+      <img src="./img/img4.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <div class="six-img-div">
+        <h4>Claritas Etiam Processus</h4>
+        <p>Photography Nature</p>
+      </div>
+    </div>
+    <div class="col-sm-3 sixImg" > 
+      <img src="./img/img5.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <div class="six-img-div">
+        <h4>Quam Nutamus Farum</h4>
+        <p>Photography, Holida</p>
+      </div>
+    </div>
+    <div class="col-sm-3 sixImg"> 
+      <img src="./img/img6.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <div class="six-img-div">
+        <h4>Claritas Etiam Processus</h4>
+        <p>Photography Nature</p>
+      </div>
+    </div>
+  </div>
+  <div class="row" style="margin-top: 30px;margin-bottom: 15px;">
+    <button type="button" style="background-color: #a97979;color: white;" class="btn btn-secondary">Load More</button>
+  </div>
+</div><br>
+
+<!-- video div -->
+
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <video id="myVideo" width="100%" height="" controls>
+      <source src="https://www.w3schools.com/tags/mov_bbb.mp4" type="video/mp4">
+      <source src="https://www.w3schools.com/tags/mov_bbb.ogg" type="video/ogg">
+      Your browser does not support HTML5 video.
+    </video>
+  </div>
+</div>
+
+<!-- hand div -->
+<div class="container-fluid bg-3 text-center">    
+  <div class="row" style="background-color: #FBFAF8;">
+    
+    <div class="col-sm-6"> 
+      <img src="./img/hand.jpg" class="img-responsive" style="width:60%;margin-left: 30%;" alt="Image">
+    </div>
+    
+    <div class="col-sm-6" style="position: absolute;right: 7%;text-align: left;margin-top: 7%;"> 
+      <h3>Excellent for Mobile Devices.</h3>
+      <p style="color: #6d6d6d;margin-top: 31px;margin-bottom: 30px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+      <ul style="line-height: 25px;color: #6d6d6d;">
+        <li>It is a long established fact that a reader will be</li>
+        <li>as opposed to using 'Content here, content here'</li>
+        <li>it look like readable English. Many desktop publishing </li>
+        <li>and a search for 'lorem ipsum' will uncover many</li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+<div class="container-fluid bg-3 text-center bgGrid">    
+  <div class="row" style="margin: 30px 14% 33px 25%;">
+    
+    <div class="col-sm-2 five-div"> 
+      <img src="./img/website_icon.png" class="img-responsive five-img-div" style="width:60%;" alt="Image">
+      <h1>3587</h1>
+      <p>SATISFIED CLIENTS</p>
+      <hr />
+    </div>
+    <div class="col-sm-2 five-div"> 
+      <img src="./img/website_icon.png" class="img-responsive five-img-div" style="width:60%;" alt="Image">
+      <h1>207</h1>
+      <p>CUPS OF COFFEE</p>
+      <hr />
+    </div>
+    <div class="col-sm-2 five-div"> 
+      <img src="./img/website_icon.png" class="img-responsive five-img-div" style="width:60%;" alt="Image">
+      <h1>2500</h1>
+      <p>BLOG POSTS</p>
+      <hr />
+    </div>
+    <div class="col-sm-2 five-div"> 
+      <img src="./img/website_icon.png" class="img-responsive five-img-div" style="width:60%;" alt="Image">
+      <h1>873</h1>
+      <p>LIKES</p>
+      <hr />
+    </div>
+    <div class="col-sm-2 five-div"> 
+      <img src="./img/website_icon.png" class="img-responsive five-img-div" style="width:60%;" alt="Image">
+      <h1>900</h1>
+      <p>WE LAUNCHED</p>
+      <hr />
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-3 text-center" style="margin-bottom: 50px;">    
+  <div class="row" style="margin: 20px 25% 36px 25%;">
+    <h2 style="color: #4c4b4b;margin-bottom: 20px;">Recent Posts.</h2>
+    <p style="color: #868686;">February special days list. Welcome to www.valentineweeklist.in, The old and authentic site which gives you information about the February</p>
+  </div>
+  <div class="row">
+    <div class="col-sm-3 dateImg" style="margin-left: 14%;">
+      <div class="date-div">
+        <p class="date-day">30</p>
+        <p class="date-month">Sep.</p>
+      </div>
+      <img src="./img/img1.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <div class="six-img-div" style="background-color: #fff;padding-bottom: 20px;">
+        <h4>Lorem Ipsum is simply dummy</h4>
+        <p style="line-height: 1.3">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+    <div class="col-sm-3 dateImg"> 
+      <div class="date-div">
+        <p class="date-day">30</p>
+        <p class="date-month">Sep.</p>
+      </div>
+      <img src="./img/img4.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <div class="six-img-div" style="background-color: #fff;padding-bottom: 20px;">
+        <h4>Lorem Ipsum is simply dummy</h4>
+        <p style="line-height: 1.3">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+    <div class="col-sm-3 dateImg"> 
+      <div class="date-div">
+        <p class="date-day">30</p>
+        <p class="date-month">Sep.</p>
+      </div>
+      <img src="./img/img3.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <div class="six-img-div" style="background-color: #fff;padding-bottom: 20px;">
+        <h4>Lorem Ipsum is simply dummy</h4>
+        <p style="line-height: 1.3">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-3 text-center" style="padding:0px;">    
+  <img src="img/Assign2.jpg" width="100%" />
+</div>
+
+
+<div class="container-fluid bg-3 text-center" style="padding:0px;background-color: #2d2c2c;">    
+  <div class="row" style="width: 80%;margin-left: 12%;">
+
+    <div class="col-sm-3" style="text-align: left;"> 
+      <img src="./img/website_icon.png" style="width: 27%;margin: 10px 10px 10px 10px;" />
+      <span style="color: #fff;font-size: 25px;">Waxom</span>
+      <p style="color: #969191;line-height: 20px;font-size: 12px;">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+      </p>     
+      <a href="#" style="color: #fff;font-weight: 600;font-size: 14px;">Read More</a>
+    </div>
+
+    <div class="col-sm-3" style="text-align: left;color: #fff;"> 
+      <h3>Recent Posts</h3>
+      <div>
+        <span style="font-size: 10px;color: #737171;">Sept 8, 2015</span></br>
+        <p class="footer-recent-post">Lorem Ipsum is simply dummy text of the printing and standard dummy text </p>
+      </div> 
+      <hr class="hr-border" />
+      <div>
+        <span style="font-size: 10px;color: #737171;">Sept 8, 2015</span></br>
+        <p class="footer-recent-post">standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
+      </div>
+      <hr class="hr-border" />
+      <div>
+        <span style="font-size: 10px;color: #737171;">Sept 8, 2015</span></br>
+        <p class="footer-recent-post">and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+      </div> 
+    </div>
+      
+    <div class="col-sm-3" style="text-align: left;color: #fff;"> 
+      <h3>Our Twitter</h3>
+      <div>
+        <p class="footer-recent-post"><a>@Lorem</a> Ipsum is simply dummy text of the printing and standard dummy text </p>
+        <span style="font-size: 10px;color: #737171;">3 min ago</span>
+      </div> 
+      <hr class="hr-border" />
+      <div>
+        <p class="footer-recent-post">standard dummy text <a>#ever</a> since the 1500s, when an unknown printer took a galley of type</p>
+        <span style="font-size: 10px;color: #737171;">5 min ago</span>
+      </div>
+      <hr class="hr-border" />
+      <div>
+        <p class="footer-recent-post">and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+        <span style="font-size: 10px;color: #737171;">7 min ago</span>
+      </div> 
+    </div>
+
+    <div class="col-sm-3"> 
+      <h3 style="color:#fff;padding-bottom: 10px;text-align:left;">Dribbble Widget</h3>
+      <div class="row">
+        <div class="col-sm-6" style="padding-left: 15px;"> 
+          <img src="img/footer1.jpg" />
+        </div>
+        <div class="col-sm-6"> 
+          <img src="img/footer2.jpg"/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6"> 
+          <img src="img/footer3.jpg"/>
+        </div>
+        <div class="col-sm-6"> 
+          <img src="img/footer4.jpg"/>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<footer class="container-fluid text-center" style="background-color: #171515;">
+  <div class="row" style="width: 70%;margin-left: 11%;">
+    <div class="col-sm-6" style="text-align: left;"> 
+      <p style="color: #fff;">Copyright 2015 Waxom | Privacy Policy | FAQ | Support</p>
+    </div>
+    <div class="col-sm-6" style="text-align: right;"> 
+      <p style="color: #fff;">Desined by ThemeFire | Only on Envato Market</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
+
